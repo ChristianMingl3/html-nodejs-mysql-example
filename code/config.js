@@ -6,5 +6,5 @@ const env = process.env;
 
 module.exports = {
     port: env.PORT || 8080,
-    database: env.CLEARDB_DATABASE_URL,
+    database: env.DATABASE_URL,
 };
